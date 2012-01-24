@@ -36,7 +36,7 @@
    "provides" : {
       "Task::Unicode" : {
          "file" : "lib/Task/Unicode.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -52,5 +52,5 @@
          "url" : "git://github.com/patch/task-unicode-pm5.git"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

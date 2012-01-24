@@ -4,7 +4,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
 
@@ -18,7 +18,7 @@ Task::Unicode - Everything needed to work with Unicode data
 
 =head1 VERSION
 
-This document describes Task::Unicode version 0.01.
+This document describes Task::Unicode version 0.02.
 
 =head1 DESCRIPTION
 
@@ -96,32 +96,32 @@ This task requires Perl 5.8.0, which bundles the following important modules.
 
 =over
 
-=item charnames
+=item L<charnames>
 
 Access to Unicode character names and named character sequences; also define
 character names
 
-=item utf8
+=item L<utf8>
 
 Perl pragma to enable/disable UTF-8 (or UTF-EBCDIC) in source code
 
-=item open
+=item L<open>
 
 Perl pragma to set default PerlIO layers for input and output
 
-=item Encode
+=item L<Encode>
 
 Character encodings in Perl
 
-=item Unicode::Collate
+=item L<Unicode::Collate>
 
 Unicode Collation Algorithm
 
-=item Unicode::Normalize
+=item L<Unicode::Normalize>
 
 Unicode Normalization Forms
 
-=item Unicode::UCD
+=item L<Unicode::UCD>
 
 Unicode character database
 
