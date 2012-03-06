@@ -15,11 +15,12 @@ name: Task-Unicode
 provides:
   Task::Unicode:
     file: lib/Task/Unicode.pm
-    version: 0.02
+    version: 0.03
 requires:
   App::Uni: 0
   Encode::DoubleEncodedUTF8: 0
   String::Dump: 0
+  Unicode::CaseFold: 0
   Unicode::Collate::Locale: 0
   Unicode::GCString: 0
   Unicode::LineBreak: 0
@@ -31,4 +32,4 @@ resources:
   homepage: https://github.com/patch/task-unicode-pm5
   license: http://dev.perl.org/licenses/
   repository: git://github.com/patch/task-unicode-pm5.git
-version: 0.02
+version: 0.03

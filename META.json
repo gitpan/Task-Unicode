@@ -24,6 +24,7 @@
             "App::Uni" : 0,
             "Encode::DoubleEncodedUTF8" : 0,
             "String::Dump" : 0,
+            "Unicode::CaseFold" : 0,
             "Unicode::Collate::Locale" : 0,
             "Unicode::GCString" : 0,
             "Unicode::LineBreak" : 0,
@@ -36,7 +37,7 @@
    "provides" : {
       "Task::Unicode" : {
          "file" : "lib/Task/Unicode.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -52,5 +53,5 @@
          "url" : "git://github.com/patch/task-unicode-pm5.git"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
