@@ -2,7 +2,7 @@ NAME
     Task::Unicode - Everything needed to work with Unicode data
 
 VERSION
-    This document describes Task::Unicode version 0.05.
+    This document describes Task::Unicode v0.06.
 
 DESCRIPTION
     This Task module installs everything needed for working with Unicode and
@@ -23,6 +23,9 @@ DESCRIPTION
     Unicode::CaseFold
         Unicode case-folding for case-insensitive lookups
 
+    Unicode::Casing
+        Perl extension to override system case changing functions
+
     Unicode::Collate::Locale
         Linguistic tailoring for DUCET via Unicode::Collate
 
@@ -38,6 +41,9 @@ DESCRIPTION
 
     Unicode::Stringprep
         Preparation of Internationalized Strings (RFC 3454)
+
+    Unicode::UTF8
+        Encoding and decoding of UTF-8 encoding form
 
     Unicode::Util
         Unicode-aware versions of built-in Perl functions
@@ -61,7 +67,7 @@ DESCRIPTION
         5.14+)
 
   SEE ALSO
-    This task requires Perl 5.8.0, which bundles the following important
+    This task requires Perl v5.10, which bundles the following important
     modules.
 
     charnames
@@ -90,7 +96,7 @@ AUTHOR
     Nick Patch <patch@cpan.org>
 
 COPYRIGHT AND LICENSE
-    © 2012 Nick Patch
+    © 2012–2014 Nick Patch
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
